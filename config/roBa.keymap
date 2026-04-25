@@ -35,16 +35,6 @@
             key-positions = <11 12>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -58,6 +48,11 @@
         eesscc {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
+        };
+
+        backspase {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
         };
     };
 
