@@ -40,9 +40,9 @@ layers:
   - LEFT GUI
   - {t: '&to_layer_0 LC(SPACE)', h: NUM}
   - {t: SPACE, h: FUNCTION}
-  - {t: '&to_layer_0 SPACE', h: MOUSE}
+  - {t: SPACE, h: ARROW}
   - ENTER
-  - RSHIFT
+  - {t: LANG1, h: RSHIFT}
   - BACKSPACE
   FUNCTION:
   - {t: ▽, type: trans}
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
