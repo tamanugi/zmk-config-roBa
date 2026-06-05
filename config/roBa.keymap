@@ -12,6 +12,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -82,10 +83,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R                   &kp T                                        &kp Y             &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D         &kp F                   &kp G        &kp MINUS        &kp EQUAL      &kp H             &kp J  &kp K      &kp L    &kp SQT
+&kp Q               &kp W         &kp E         &kp R                   &kp T                                          &kp Y             &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_CONTROL A  &kp S         &kp D         &kp F                   &kp G        &kp MINUS        &kp EQUAL        &kp H             &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                   &kp B        &kp COLON        &lt 1 SEMICOLON  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL           &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 2 LANG2  &lt 3 SPACE  &lt 4 SPACE      &kp ENTER        &mt RSHIFT LANG1                             &kp BACKSPACE
+&kp LCTRL           &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 2 LANG2  &lt 3 SPACE  &lt 4 SPACE      &kp ENTER        &mt RSHIFT LANG1                             &lt_to_layer_0 6 BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
